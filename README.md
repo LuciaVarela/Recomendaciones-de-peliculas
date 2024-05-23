@@ -13,5 +13,5 @@ docker build -t proyecto .
 ```
 
 ```
-docker run -p 8888:8888 -v $(pwd):/home/jovyan/myproject proyecto
+docker run -p 8888:8888 proyecto
 ```
